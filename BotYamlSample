@@ -1,0 +1,31 @@
+---
+bot_name:
+  info:
+    email: botemail@domain.com
+    password: bot_password
+  name: bot_name
+  nt_credentials:
+    access_token: ABCDEFG
+    access_token_secret: HIJKLMNOP
+    consumer_key: QRSTUV
+    consumer_secret: QRSTUV
+  nt_settings:
+    access_token: ABCDEFG
+    access_token_secret: HIJKLMNOP
+    clientname: bot_name
+    clienturl: https://google.com/q?=bot_name
+    clientver: 1.0
+    consumer_key: QRSTUV
+    consumer_secret: QRSTUV
+    decode_html_entities: 1
+    max_retries: 1
+    ssl: 1
+    traits:
+      - OAuth
+      - API::RESTv1_1
+      - InflateObjects
+      - RetryOnError
+    useragent: ''
+    useragent_args:
+      show_progress: 1
+      timeout: 10
